@@ -13,3 +13,12 @@ import require from "reekwire";
 
 const { registerSchema } = require("@reactioncommerce/schemas");
 ```
+
+Also works to import JSON files which were supported with CommonJS's `require` function:
+
+```
+import require from "reekwire";
+
+const pkg = require("./package.json");
+console.log(`${pkg.name}@${pkg.version}`);
+```
