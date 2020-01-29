@@ -1,0 +1,26 @@
+{
+  "name": "reekwire",
+  "version": "1.0.0",
+  "description": "Workaround for using CommonJS named exports in ES modules.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/reekwire.git"
+  },
+  "keywords": [
+    "commonjs",
+    "esmodules",
+    "import",
+    "workaround"
+  ],
+  "author": "Reaction Commerce <hello@reactioncommerce.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reekwire/issues"
+  },
+  "homepage": "https://github.com/reactioncommerce/reekwire#readme"
+}
