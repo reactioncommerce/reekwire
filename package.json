@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/reactioncommerce/reekwire/issues"
   },
-  "homepage": "https://github.com/reactioncommerce/reekwire#readme"
+  "homepage": "https://github.com/reactioncommerce/reekwire#readme",
+  "dependencies": {
+    "callsite": "^1.0.0"
+  }
 }
