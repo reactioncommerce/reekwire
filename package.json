@@ -1,6 +1,6 @@
 {
   "name": "reekwire",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Workaround for using CommonJS named exports in ES modules.",
   "main": "index.js",
   "type": "module",
@@ -11,6 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/reactioncommerce/reekwire.git"
   },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "commonjs",
     "esmodules",
@@ -25,5 +30,16 @@
   "homepage": "https://github.com/reactioncommerce/reekwire#readme",
   "dependencies": {
     "callsite": "^1.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "trunk"
+    ]
   }
 }
